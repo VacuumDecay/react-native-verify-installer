@@ -12,6 +12,10 @@
     "Play Store",
     "Amazon Store"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VacuumDecay/react-native-verify-installer"
+  },
   "author": "VacuumDecay <vacuumdecay1@gmail.com>",
   "license": "MIT",
   "peerDependencies": {

@@ -19,7 +19,7 @@ Android only React Native library to retrieve the source of installation for a g
 2. Append the following lines to `android/settings.gradle`:
   	```
   	include ':react-native-verify-installer'
-  	project(':react-native-verify-installer').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-verify-installer/android')
+  	project(':react-native-verify-installer').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-verify-installer/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
