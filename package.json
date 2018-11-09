@@ -1,0 +1,20 @@
+{
+  "name": "react-native-verify-installer",
+  "version": "1.1.0",
+  "description": "Verify android package by installer. Can determine if app installed Play Store, Amazon Store or 3rd party",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "app",
+    "verify",
+    "package",
+    "install",
+    "Play Store",
+    "Amazon Store"
+  ],
+  "author": "VacuumDecay <vacuumdecay1@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}
