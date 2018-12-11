@@ -40,8 +40,9 @@ public class RNVerifyInstallerModule extends ReactContextBaseJavaModule {
         if(installerPackage == null){
             installerName = "ADB";
         }else{
-          installerName = installers.get(installerPackage).toString();
-          if(installerName == null){
+          try{
+            installerName = installers.get(installerPackage).toString();
+          }catch(NullPointerException e){
             installerName = "Unknown";
           }
         }
